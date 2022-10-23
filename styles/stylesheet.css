@@ -1,0 +1,136 @@
+/*import font types*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    background-color: #f0f0f0;
+}
+.navbar {
+    background-color: #fff !important;
+}
+.nav-link:hover {
+    color: #6b28a6 !important;
+}
+/*typeface*/
+h1 { 
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 45px;
+}
+h2 { 
+    font-family: 'Baloo Da 2', cursive;
+}
+h3 { 
+    font-family: 'Baloo Da 2', cursive;
+}
+h5 { 
+    font-family: 'Baloo Da 2', cursive;
+}
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color: #b157ff;
+}
+a:hover {
+    color:#6b28a6;
+}
+b {
+    color: #6b28a6;
+}
+
+/*logo size*/
+.navbar-brand > img {
+    width: 183px;
+    height: 40px;
+}
+
+/*map*/
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*video in live page*/
+
+.embed-responsive {
+    margin: 0 auto;
+    display: block;
+    width: 50% !important;
+    height: auto !important;
+}
+
+.Live {
+    margin: 0 auto;
+    display: center;
+    width: 40% !important;
+    text-align: center;
+}
+
+
+/*Links*/
+
+.links {
+    font-family: "Josefin Sans", sans-serif;
+    color: #18a0fb;
+}
+
+/*footer*/
+footer {
+    background-color: #fff;
+}
+footer p {
+    color: gray;
+    margin: 0%;
+}
+/*footer logos*/
+footer img {
+    width: 75%;
+}
+
+/*Floating Back-To-Top Button*/
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 200px;
+    width: 100%;
+    font-size: 16px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: #b157ff;
+    padding: .5px;
+    border-radius: 4px;
+
+}
+
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #6b28a6;
+}
+.container-fluid {
+    width:90%;
+}
+#carouselGallery
+{
+    width: 70%;
+}
+#FloatingRailway
+{
+    width: 50%;
+}
+.imgCredits
+{
+    color:#6b28a6;
+}
